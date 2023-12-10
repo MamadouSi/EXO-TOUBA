@@ -1,0 +1,63 @@
+2023-12-10T07:38:45+00:00 CRITICAL Uncaught WCPay\Exceptions\API_Exception: Your site host "localhost" is on a private network. Jetpack can only connect to public sites. in C:\wamp64\www\EXO-TOUBA\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-http.php:194
+Stack trace:
+#0 C:\wamp64\www\EXO-TOUBA\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-api-client.php(221): WC_Payments_Http->start_connection('http://localhos...')
+#1 C:\wamp64\www\EXO-TOUBA\wp-content\plugins\woocommerce-payments\includes\class-wc-payments-account.php(1928): WC_Payments_API_Client->start_server_connection('http://localhos...')
+#2 C:\wamp64\www\EXO-TOUBA\wp-content\plugins\woocommerce-payments\includes\class-wc-payments-account.php(1029): WC_Payments_Account->redirect_to_onboarding_flow_page()
+#3 C:\wamp64\www\EXO-TOUBA\wp-includes\class-wp-hook.php(324): WC_Payments_Account->maybe_handle_onboarding('')
+#4 C:\wamp64\www\EXO-TOUBA\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C dans C:\wamp64\www\EXO-TOUBA\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-http.php à la ligne 194
+
+2023-12-10T07:39:01+00:00 CRITICAL Uncaught WCPay\Exceptions\API_Exception: Your site host "localhost" is on a private network. Jetpack can only connect to public sites. in C:\wamp64\www\EXO-TOUBA\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-http.php:194
+Stack trace:
+#0 C:\wamp64\www\EXO-TOUBA\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-api-client.php(221): WC_Payments_Http->start_connection('http://localhos...')
+#1 C:\wamp64\www\EXO-TOUBA\wp-content\plugins\woocommerce-payments\includes\class-wc-payments-account.php(1928): WC_Payments_API_Client->start_server_connection('http://localhos...')
+#2 C:\wamp64\www\EXO-TOUBA\wp-content\plugins\woocommerce-payments\includes\class-wc-payments-account.php(1029): WC_Payments_Account->redirect_to_onboarding_flow_page()
+#3 C:\wamp64\www\EXO-TOUBA\wp-includes\class-wp-hook.php(324): WC_Payments_Account->maybe_handle_onboarding('')
+#4 C:\wamp64\www\EXO-TOUBA\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C dans C:\wamp64\www\EXO-TOUBA\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-http.php à la ligne 194
+
+2023-12-10T07:39:22+00:00 CRITICAL Uncaught WCPay\Exceptions\API_Exception: Your site host "localhost" is on a private network. Jetpack can only connect to public sites. in C:\wamp64\www\EXO-TOUBA\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-http.php:194
+Stack trace:
+#0 C:\wamp64\www\EXO-TOUBA\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-api-client.php(221): WC_Payments_Http->start_connection('http://localhos...')
+#1 C:\wamp64\www\EXO-TOUBA\wp-content\plugins\woocommerce-payments\includes\class-wc-payments-account.php(1928): WC_Payments_API_Client->start_server_connection('http://localhos...')
+#2 C:\wamp64\www\EXO-TOUBA\wp-content\plugins\woocommerce-payments\includes\class-wc-payments-account.php(1029): WC_Payments_Account->redirect_to_onboarding_flow_page()
+#3 C:\wamp64\www\EXO-TOUBA\wp-includes\class-wp-hook.php(324): WC_Payments_Account->maybe_handle_onboarding('')
+#4 C:\wamp64\www\EXO-TOUBA\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C dans C:\wamp64\www\EXO-TOUBA\wp-content\plugins\woocommerce-payments\includes\wc-payment-api\class-wc-payments-http.php à la ligne 194
+
+2023-12-10T10:59:02+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to et_fb_generate_post_content_module_selector() must be of the type array, string given, called in C:\wamp64\www\EXO-TOUBA\wp-content\themes\Divi\includes\builder\functions.php on line 10950 and defined in C:\wamp64\www\EXO-TOUBA\wp-content\themes\Divi\includes\builder\functions.php:11007
+Stack trace:
+#0 C:\wamp64\www\EXO-TOUBA\wp-content\themes\Divi\includes\builder\functions.php(10950): et_fb_generate_post_content_module_selector('', 'theme_builder_c...')
+#1 C:\wamp64\www\EXO-TOUBA\wp-content\themes\Divi\includes\builder\frontend-builder\helpers.php(2871): et_fb_get_builder_shortcode_object('page', 8, '')
+#2 C:\wamp64\www\EXO-TOUBA\wp-includes\class-wp-hook.php(324): et_fb_backend_helpers('')
+#3 C:\wamp64\www\EXO-TOUBA\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 C:\wamp64\www\EXO-TOUBA\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\wamp64\www\EXO-TOUBA\wp-content\themes\Divi\includes\builder\frontend-builder\assets.php(350): d dans C:\wamp64\www\EXO-TOUBA\wp-content\themes\Divi\includes\builder\functions.php à la ligne 11007
+
+2023-12-10T11:00:34+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to et_fb_generate_post_content_module_selector() must be of the type array, string given, called in C:\wamp64\www\EXO-TOUBA\wp-content\themes\Divi\includes\builder\functions.php on line 10950 and defined in C:\wamp64\www\EXO-TOUBA\wp-content\themes\Divi\includes\builder\functions.php:11007
+Stack trace:
+#0 C:\wamp64\www\EXO-TOUBA\wp-content\themes\Divi\includes\builder\functions.php(10950): et_fb_generate_post_content_module_selector('', 'theme_builder_c...')
+#1 C:\wamp64\www\EXO-TOUBA\wp-content\themes\Divi\includes\builder\frontend-builder\helpers.php(2871): et_fb_get_builder_shortcode_object('page', 8, '')
+#2 C:\wamp64\www\EXO-TOUBA\wp-includes\class-wp-hook.php(324): et_fb_backend_helpers('')
+#3 C:\wamp64\www\EXO-TOUBA\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 C:\wamp64\www\EXO-TOUBA\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\wamp64\www\EXO-TOUBA\wp-content\themes\Divi\includes\builder\frontend-builder\assets.php(350): d dans C:\wamp64\www\EXO-TOUBA\wp-content\themes\Divi\includes\builder\functions.php à la ligne 11007
+
+2023-12-10T11:01:00+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to et_fb_generate_post_content_module_selector() must be of the type array, string given, called in C:\wamp64\www\EXO-TOUBA\wp-content\themes\Divi\includes\builder\functions.php on line 10950 and defined in C:\wamp64\www\EXO-TOUBA\wp-content\themes\Divi\includes\builder\functions.php:11007
+Stack trace:
+#0 C:\wamp64\www\EXO-TOUBA\wp-content\themes\Divi\includes\builder\functions.php(10950): et_fb_generate_post_content_module_selector('', 'theme_builder_c...')
+#1 C:\wamp64\www\EXO-TOUBA\wp-content\themes\Divi\includes\builder\frontend-builder\helpers.php(2871): et_fb_get_builder_shortcode_object('page', 8, '')
+#2 C:\wamp64\www\EXO-TOUBA\wp-includes\class-wp-hook.php(324): et_fb_backend_helpers('')
+#3 C:\wamp64\www\EXO-TOUBA\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 C:\wamp64\www\EXO-TOUBA\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\wamp64\www\EXO-TOUBA\wp-content\themes\Divi\includes\builder\frontend-builder\assets.php(350): d dans C:\wamp64\www\EXO-TOUBA\wp-content\themes\Divi\includes\builder\functions.php à la ligne 11007
+
+2023-12-10T11:02:22+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to et_fb_generate_post_content_module_selector() must be of the type array, string given, called in C:\wamp64\www\EXO-TOUBA\wp-content\themes\Divi\includes\builder\functions.php on line 10950 and defined in C:\wamp64\www\EXO-TOUBA\wp-content\themes\Divi\includes\builder\functions.php:11007
+Stack trace:
+#0 C:\wamp64\www\EXO-TOUBA\wp-content\themes\Divi\includes\builder\functions.php(10950): et_fb_generate_post_content_module_selector('', 'theme_builder_c...')
+#1 C:\wamp64\www\EXO-TOUBA\wp-content\themes\Divi\includes\builder\frontend-builder\helpers.php(2871): et_fb_get_builder_shortcode_object('page', 8, '')
+#2 C:\wamp64\www\EXO-TOUBA\wp-includes\class-wp-hook.php(324): et_fb_backend_helpers('')
+#3 C:\wamp64\www\EXO-TOUBA\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 C:\wamp64\www\EXO-TOUBA\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\wamp64\www\EXO-TOUBA\wp-content\themes\Divi\includes\builder\frontend-builder\assets.php(350): d dans C:\wamp64\www\EXO-TOUBA\wp-content\themes\Divi\includes\builder\functions.php à la ligne 11007
+
